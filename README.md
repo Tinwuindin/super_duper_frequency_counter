@@ -10,3 +10,14 @@ To calculate the frequency, just divide the Timer 1 value by the elapsed time. H
 I hope the program proves useful to someone!! 
 
 
+# Diagram connection
+
+Signal == > RC0
+This is the pin where you connect the signal to measure
+
+Transistors == > RA1 to RA7
+Base of the transistor to multiplex the 7 segments displays
+
+Display 7 segments == > RB0 to RB7
+
+
